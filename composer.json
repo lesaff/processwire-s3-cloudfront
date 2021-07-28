@@ -1,0 +1,33 @@
+{
+    "name": "lesaff/processwire-s3cloudfront",
+    "type": "processwire-module",
+    "extra": {
+        "installer-name": "Amazon S3 Cloudfront Module"
+    },
+    "require": {
+        "aws/aws-sdk-php": "^3.186",
+        "composer/installers": "~1.0",
+        "php": "^7.1||^8.0"
+    },
+    "require-dev": {
+        "processwire/processwire": "^3.0.165"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Rudy\\S3cloudfront\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rudy Affandi",
+            "email": "rudy@adnetinc.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/lesaff/processwire-s3-cloudfront"
+        }
+    ]
+}
