@@ -2,7 +2,7 @@
     "name": "lesaff/processwire-s3cloudfront",
     "type": "processwire-module",
     "extra": {
-        "installer-name": "Amazon S3 Cloudfront Module"
+        "installer-name": "AWSS3Cloudfront"
     },
     "require": {
         "aws/aws-sdk-php": "^3.186",
