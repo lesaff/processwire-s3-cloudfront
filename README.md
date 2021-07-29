@@ -1,4 +1,5 @@
-# Amazon S3 CloudFront Module for ProcessWire 3.x
+# Amazon S3 CloudFront Module for ProcessWire 3.x  
+Version: 1.0.0
 
 This module/plugin provides a way to synchronize, serve and backup to Amazon S3/ CloudFront all the page files uploaded through the Admin of ProcessWire. This is a fork of the original module made by Nmendes.
 
